@@ -58,10 +58,10 @@ def enter_move(board_stats):
         players_turn = input("In welches Feld wollen Sie den Kreis \"O\" setzen: \n")
         
         try:
-            players_turn =  int(players_turn)
+            players_turn = int(players_turn)
             if int(players_turn) < 1 or int(players_turn) > 9:
                 print("🖕")
-            else: 
+            else:
                 correct_input = map_turn(players_turn,"O")
                 print("PLAYER'S TURN: ")
                 display_board(board_stats)
