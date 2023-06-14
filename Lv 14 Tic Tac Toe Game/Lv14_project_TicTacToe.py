@@ -55,7 +55,7 @@ def enter_move(board_stats):
     correct_input = False
     
     while not correct_input:
-        players_turn = input("In welches Feld wollen Sie den O setzen: \n")
+        players_turn = input("In welches Feld wollen Sie den Kreis \"O\" setzen: \n")
         
         try:
             players_turn =  int(players_turn)
@@ -107,7 +107,8 @@ def draw_computers_turn(board_stats):
         free_fields = make_list_of_free_fields(board_stats)
         if computers_turn in free_fields:  
             correct_turn = map_turn(computers_turn, "X")
-        else: continue
+        else: 
+            continue
     print("COMPUTER'S TURN: ")
     display_board(board_stats)
 
@@ -167,6 +168,7 @@ while not game_over:
     time.sleep(2)
     draw_computers_turn(board_stats)
     win = check_victory(board_stats, "X")
+    field_list = make_list_of_free_fields(board_stats)
     if len(field_list) == 0:
         player = "DRAW"
         game_over = True
@@ -174,9 +176,8 @@ while not game_over:
     win = check_victory(board_stats, "O")
     game_over = win[0]
     player = win[1]
-    field_list = make_list_of_free_fields(board_stats)
-
+    
 end_of_game(player)
 
 ####################################################################################################
-# Made with 🧠⚡️ ☄️ 💥 🔥 🌪 and 💚 by Ryu_Ronin 😏👉🏼 Creative Djinns
+# Made with 🧠⚡️ ☄️ 💥 🔥 🌪 and 💚 by Ryu_Ronin 😏👉🏼

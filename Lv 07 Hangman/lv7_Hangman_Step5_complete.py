@@ -1,11 +1,11 @@
 import random
-import hangman_art
-import hangman_words
+from lv7_Hangman_Step5_Art import stages, logo
+from lv7_Hangman_Step5_WordList import word_list
 
-end_of_game = False;
+end_of_game = False
 
 # Step 1 TODO 1
-chosen_word = random.choice(hangman_words.word_list)
+chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
 # Step 4 TODO 1
@@ -20,7 +20,7 @@ display = []
 for i in range(word_length):
   display.append("_")
 # ------------------------------------------------------
-print(f"{hangman_art.logo}\n")
+print(f"{logo}\n")
 
 # print(f'debug: {chosen_word}')
 print(f"{' '.join(display)}")
@@ -46,7 +46,7 @@ while not end_of_game:
       print("Du hast verloren.")
 
 # Step 4 TODO 3
-  print(hangman_art.stages[lives])
+  print(stages[lives])
 # Step 2 TODO 3
   print(f"{' '.join(display)}")
 
