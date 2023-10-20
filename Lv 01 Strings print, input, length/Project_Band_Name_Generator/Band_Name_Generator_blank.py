@@ -1,9 +1,11 @@
-#1. Erstellen Sie eine Begrüßung für Ihr Programm
+# TODO 0. Erstellen Sie ein Aktivitätsdiagram mit UMLet für die folgenden 5 Punkte.
 
-#2. Fragen Sie den Benutzenden, in welcher Stadt er oder sie aufgewachsen ist.
+# TODO 1. Erstellen Sie eine Begrüßung für Ihr Programm
 
-#3. Fragen Sie den Benutzenden, nach seinem oder ihrem Lieblingstier.
+# TODO 2. Fragen Sie den Benutzenden, in welcher Stadt er oder sie aufgewachsen ist.
 
-#4. Kombinieren Sie den Namen der Stadt, sowie den Namen des Lieblingstieres zu einem Band Namen.
+# TODO 3. Fragen Sie den Benutzenden, nach seinem oder ihrem Lieblingstier.
 
-#5. Achten Sie darauf, dass der Curser anschließend in eine neue Zeile springt.
+# TODO 4. Kombinieren Sie den Namen der Stadt, sowie den Namen des Lieblingstieres zu einem Band Namen.
+
+# TODO 5. Achten Sie darauf, dass der Curser anschließend in eine neue Zeile springt.
