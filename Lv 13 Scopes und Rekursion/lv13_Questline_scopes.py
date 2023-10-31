@@ -56,3 +56,57 @@ def increase_returned_enemies():
 
 
 enemies = increase_returned_enemies()
+
+
+###############################################################
+
+
+####################################################################################
+
+"""
+ _                 _          ___ _     _          _ 
+| |   ___  __ __ _| | __ __  / __| |___| |__  __ _| |
+| |__/ _ \/ _/ _` | | \ \ / | (_ | / _ \ '_ \/ _` | |
+|____\___/\__\__,_|_| /_\_\  \___|_\___/_.__/\__,_|_|
+"""
+
+# Beispiel 1
+def spam_global():
+    print(eggs)
+eggs = 10 # globale Variablen Definition
+
+spam_global()
+
+################################
+
+# Beispiel 2
+def spam_local():
+    print(eggs)
+    eggs = 42
+eggs = 10
+
+spam_local()
+
+################################
+
+def spam_chaos():
+    global eggs
+    eggs = 43
+
+####################################################################################
+
+"""
+ ___     _               _          
+| _ \___| |___  _ _ _ __(_)___ _ _  
+|   / -_) / / || | '_(_-< / _ \ ' \ 
+|_|_\___|_\_\\_,_|_| /__/_\___/_||_|
+"""
+
+def twist_numbers(number):
+    if number > 7:
+        number = number - 1
+        number = twist_numbers(number)
+        return number
+    return number
+
+
