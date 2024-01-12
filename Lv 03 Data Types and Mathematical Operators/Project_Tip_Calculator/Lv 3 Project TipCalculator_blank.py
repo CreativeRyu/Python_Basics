@@ -1,6 +1,7 @@
 # Lv 3 Project Tip Calculator
 
-# TODO 0. Erstellen Sie ein Aktivitätsdiagramm auf der Grundlage der folgenden Projektaufgabe.
+# TODO 0. Erstellen Sie für die folgende Projektaufgabe einen PAP.
+# TODO 0. Schreiben Sie den Code zusätzlich auch als Pseudocode nieder.
 
 # TODO 1. Erstellen Sie eine Begrüßung für Ihr Programm.
 
