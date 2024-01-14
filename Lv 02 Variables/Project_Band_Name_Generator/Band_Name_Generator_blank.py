@@ -1,4 +1,4 @@
-# TODO 0. Erstellen Sie ein Aktivitätsdiagram mit UMLet für die folgenden 5 Punkte.
+# TODO 0. Erstellen Sie ein PAP für das folgende Programmierprojekt.
 
 # TODO 1. Erstellen Sie eine Begrüßung für Ihr Programm
 
