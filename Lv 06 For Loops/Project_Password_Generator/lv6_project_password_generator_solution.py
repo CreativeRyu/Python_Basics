@@ -13,7 +13,7 @@ nr_symbols = int(input(f"Wie viele Symbole?\n"))
 nr_numbers = int(input(f"und wie viel Ziffern?\n"))
 
 password = ""
-#Eazy Level - Order not randomised:
+#Eazy Level - Order not randomized:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 # for char in range(1, nr_letters + 1):
 #  randomChar = random.choice(letters)
