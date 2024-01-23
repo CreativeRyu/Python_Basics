@@ -1,6 +1,6 @@
 import random
-from lv7_Hangman_Step5_Art import stages, logo
-from lv7_Hangman_Step5_WordList import word_list
+from lv8_Hangman_Step5_Art import stages, logo
+from lv8_Hangman_Step5_WordList import word_list
 
 end_of_game = False
 
