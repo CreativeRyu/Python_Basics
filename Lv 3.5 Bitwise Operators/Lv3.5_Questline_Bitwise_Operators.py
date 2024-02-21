@@ -2,8 +2,8 @@ x = 4  # 0000 0100
 y = 1  # 0000 0001
 
 a = x & 1
-# 0000 0100 * 0000 0001 = 0
-b = x | y
+# 0000 0100 * 0000 0001 = 4
+b = x | y # --> Addiert Binär
 # 0000 0100 + 0000 0001 = 0000 0101 -> 5
 c = ~x
 # 0000 0100 negiert = 1011 -> 10 | Dezimalzahl + 1 und dann ein Minuszeichen ran -5 # 0101
