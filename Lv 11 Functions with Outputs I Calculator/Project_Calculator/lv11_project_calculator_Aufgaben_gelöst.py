@@ -34,7 +34,6 @@ num1 = int(input("Gib die erste Zahl ein: \n"))
 # num2 = int(input("Gib die zweite Zahl ein: \n"))
 
 # 3. Die Operatoren aus dem Dictionary sollen untereinander in der Konsole angezeigt werden.
-
 for key in operations:
     print(key)
 

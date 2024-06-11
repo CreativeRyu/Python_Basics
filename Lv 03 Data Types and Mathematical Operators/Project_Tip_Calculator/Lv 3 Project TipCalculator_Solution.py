@@ -23,3 +23,4 @@ bill_with_tip = totalBill + tip
 result = round(bill_with_tip / people, 2)
 
 print(f"Jede Person sollte {result} zahlen")
+print(f"{result:.2f}")
