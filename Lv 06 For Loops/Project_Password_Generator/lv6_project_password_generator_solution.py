@@ -13,23 +13,23 @@ nr_symbols = int(input(f"Wie viele Symbole?\n"))
 nr_numbers = int(input(f"und wie viel Ziffern?\n"))
 
 password = ""
-#Eazy Level - Order not randomized:
-#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-# for char in range(1, nr_letters + 1):
-#  randomChar = random.choice(letters)
-#  password += randomChar
+# Eazy Level - Order not randomized:
+# e.g. 4 letter, 2 symbol, 2 number = JduE&!91
+for char in range(1, nr_letters + 1):
+  randomChar = random.choice(letters)
+  password += randomChar
 
-# for char in range(1, nr_symbols + 1):
-#   randomChar = random.choice(symbols)
-#   password += randomChar
+for char in range(1, nr_symbols + 1):
+  randomChar = random.choice(symbols)
+  password += randomChar
 
-# for number in range(1, nr_numbers + 1):
-#   randomChar = random.choice(numbers)
-#   password += randomChar
+for number in range(1, nr_numbers + 1):
+  randomChar = random.choice(numbers)
+  password += randomChar
 
 # print(password)
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+# Hard Level - Order of characters randomised:
+# e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 passwordList = []
 for char in range(1, nr_letters + 1):
   passwordList.append(random.choice(letters))

@@ -7,7 +7,7 @@
 #Step 2
 
 import random
-word_list = ["aardvark", "baboon", "camel"]
+word_list = ["Dragonball", "JavaScript", "Python", "Programmieren"]
 chosen_word = random.choice(word_list)
 
 #Testing code

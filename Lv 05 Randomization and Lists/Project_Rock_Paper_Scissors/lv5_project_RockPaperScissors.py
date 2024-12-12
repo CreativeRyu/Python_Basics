@@ -25,4 +25,3 @@ scissors = """
 ---.__(___)
 """
 
-# Schreiben Sie Ihren Programmcode unter dieser Zeile 👇
